@@ -29,6 +29,15 @@ section {
   font-size: 1.8rem;
 }
 
+h4 {
+  margin-top: 1rem;
+}
+
+.work-info .details {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
 .navigation a {
   color: #3a6cf4;
   font-size: 1.1rem;
