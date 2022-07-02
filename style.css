@@ -27,6 +27,7 @@ section {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8rem;
+  font-family: 'Cookie', cursive;
 }
 
 h4 {
@@ -55,7 +56,7 @@ h4 {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(black-brick-wall-vector.webp) no-repeat;
+  background: url(screen.webp) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
