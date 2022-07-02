@@ -24,9 +24,9 @@ section {
 .logo {
   text-decoration: none;
   color: #3a6cf4;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: 700;
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-family: 'Cookie', cursive;
 }
 
