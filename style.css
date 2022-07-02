@@ -1,0 +1,308 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #f0f0f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px
+}
+
+section {
+  padding: 100px;
+}
+
+.logo {
+  text-decoration: none;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+.navigation a {
+  color: #3a6cf4;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-left: 30px;
+  text-transform: capitalize;
+}
+
+.navigation a:hover {
+  color: #601cfc;
+}
+
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(images/black-brick-wall-vector.webp) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.main h2 {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4e9eff;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+.main h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px
+}
+
+.main-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #3a6cf4;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375rem 2.1875rem;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+
+.main-btn:hover {
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
+
+.social-icons a {
+  color: #fff;
+  display: inline-block;
+  padding-right: 14px;
+  font-size: 1.7rem;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  width: 21.25rem;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+.icon {
+  color: #3a6cf4;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  color: #3a6cf4;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.experience {
+  background-color: #000016;
+}
+
+.experience .content {
+  margin-top: 30px;
+}
+
+.experience-card {
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14rem;
+  width: 21rem;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.experience-card:hover {
+  transform: scale(1.1);
+}
+
+.experience-card:hover .work-image {
+  opacity: 0.9;
+}
+
+.work-image img {
+  width: 100%
+}
+
+.work-info {
+  padding: 1rem;
+}
+
+.work-category {
+  font-size: 0.8rem;
+  color: #000;
+}
+
+.work-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.more-details {
+  color: #3a6acf4;
+}
+
+.more-details:hover {
+  color: #601cfc;
+}
+
+.contact-me {
+  background-color: #000016;
+}
+
+.contact-me .icon {
+  font-size: 1rem;
+}
+
+.contact-me .info h3 {
+  color: #000;
+}
+
+.contact-me .info p {
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: #121217;
+  color: #fff;
+  justify-content: space-between;
+  padding: 2rem;
+  display: flex;
+}
+
+.footer-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.footer-title span {
+  color: #3a6cf4;
+  font-family: 'Inconsolata', monospace;
+}
+
+.footer .social-icons a {
+  font-size: 1.3rem;
+  padding: 0 10px 0 0;
+}
+
+@media (max-width:1024px) {
+  header {
+    padding: 12px 20px;
+  }
+
+  .navigation a {
+    padding-left: 10px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+  }
+
+  section {
+    padding: 80px 20px;
+  }
+
+  .main h2 {
+    font-size: 1rem;
+  }
+
+  .main h3 {
+    font-size: 1.6rem;
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width:641px) {
+  body {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 60px 15px;
+  }
+
+  .main h2 {
+    font-size: 0.8rem;
+  }
+
+  .main h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width:300px) {
+  body {
+    font-size: 10px;
+  }
+
+
+  .main h2 {
+    font-size: 0.9rem;
+  }
+
+  .main h3 {
+    font-size: 1.4rem;
+  }
+}
