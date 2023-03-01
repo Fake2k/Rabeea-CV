@@ -21,6 +21,15 @@ section {
   padding: 100px;
 }
 
+.divPic {
+  width: 300px;
+}
+
+.divPic img {
+  width: 200px;
+  position: relative;
+}
+
 .logo {
   text-decoration: none;
   color: #3a6cf4;
@@ -66,17 +75,21 @@ h4 {
   color: #fff;
   font-size: 3rem;
   font-weight: 500;
+  font-variant: small-caps;
+  margin-left: 30px;
 }
 
 .main h2 span {
   display: inline-block;
-  margin-top: 10px;
+  margin-left: 5px;
   color: #4e9eff;
-  font-size: 4rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 500;
+  font-variant: small-caps;
 }
 
 .main h3 {
+  font-variant: small-caps;
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -330,6 +343,10 @@ h4 {
 
   .cantact-me .card {
     margin: 0 0 2.5rem 0;
+  }
+  
+  .divPic {
+    height: 80px;
   }
 
 }
