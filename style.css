@@ -14,11 +14,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 200px
+  padding: 10px 200px;
+
 }
 
 section {
   padding: 100px;
+}
+
+.divPic {
+  width: 300px;
+}
+
+.divPic img {
+  width: 250px;
+  position: relative;
+}
+
+h4 {
+  margin-top: 1rem;
 }
 
 .logo {
@@ -28,15 +42,6 @@ section {
   font-weight: 700;
   font-size: 3rem;
   font-family: 'Cookie', cursive;
-}
-
-h4 {
-  margin-top: 1rem;
-}
-
-.work-info .details {
-  margin-left: 1rem;
-  padding: 0.5rem;
 }
 
 .navigation a {
@@ -56,28 +61,31 @@ h4 {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(screen.webp) no-repeat;
+  background: url(images/screen.webp) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .main h2 {
-  color: #fff;
+  font-variant: small-caps;
+  color: #4e9eff;
   font-size: 3rem;
   font-weight: 500;
 }
 
 .main h2 span {
+  font-variant: small-caps;
   display: inline-block;
   margin-top: 10px;
-  color: #4e9eff;
-  font-size: 4rem;
-  font-weight: 600;
+  color: #f5cece;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .main h3 {
-  color: #fff;
+  font-variant: small-caps;
+  color: #f5cece;
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -206,8 +214,13 @@ h4 {
   margin-top: 10px;
 }
 
+.work-info .details {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
 .more-details {
-  color: #3a6acf4;
+  color: #3a6cf4;
 }
 
 .more-details:hover {
@@ -294,12 +307,14 @@ h4 {
   }
 
   .main h2 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
 
   .main h3 {
     font-size: 1.4rem;
   }
+
+
 }
 
 @media (max-width:380px) {
@@ -330,6 +345,10 @@ h4 {
 
   .cantact-me .card {
     margin: 0 0 2.5rem 0;
+  }
+
+  .divPic img {
+    height: 80px;
   }
 
 }
