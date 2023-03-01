@@ -72,7 +72,7 @@ h4 {
 }
 
 .main h2 {
-  color: #fff;
+  color: #4e9eff;
   font-size: 3rem;
   font-weight: 500;
   font-variant: small-caps;
@@ -82,7 +82,7 @@ h4 {
 .main h2 span {
   display: inline-block;
   margin-left: 5px;
-  color: #4e9eff;
+  color: #f5cece;
   font-size: 2rem;
   font-weight: 500;
   font-variant: small-caps;
