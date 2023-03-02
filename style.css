@@ -14,7 +14,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 200px
+  padding: 10px 200px;
+
 }
 
 section {
@@ -30,6 +31,10 @@ section {
   position: relative;
 }
 
+h4 {
+  margin-top: 1rem;
+}
+
 .logo {
   text-decoration: none;
   color: #3a6cf4;
@@ -37,15 +42,6 @@ section {
   font-weight: 700;
   font-size: 3rem;
   font-family: 'Cookie', cursive;
-}
-
-h4 {
-  margin-top: 1rem;
-}
-
-.work-info .details {
-  margin-left: 1rem;
-  padding: 0.5rem;
 }
 
 .navigation a {
@@ -72,25 +68,25 @@ h4 {
 }
 
 .main h2 {
+  font-variant: small-caps;
   color: #4e9eff;
   font-size: 3rem;
   font-weight: 500;
-  font-variant: small-caps;
   margin-left: 30px;
 }
 
 .main h2 span {
+  font-variant: small-caps;
   display: inline-block;
   margin-left: 5px;
   color: #f5cece;
   font-size: 2rem;
   font-weight: 500;
-  font-variant: small-caps;
 }
 
 .main h3 {
   font-variant: small-caps;
-  color: #fff;
+  color: #f5cece;
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
@@ -220,8 +216,13 @@ h4 {
   margin-top: 10px;
 }
 
+.work-info .details {
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+
 .more-details {
-  color: #3a6acf4;
+  color: #3a6cf4;
 }
 
 .more-details:hover {
@@ -284,9 +285,9 @@ h4 {
     padding: 80px 20px;
   }
 
-  .main h2 {
-    font-size: 1rem;
-  }
+  /* .main h2 {
+    font-size: 3rem;
+  } */
 
   .main h3 {
     font-size: 1.6rem;
@@ -308,12 +309,14 @@ h4 {
   }
 
   .main h2 {
-    font-size: 1.5rem;
+    font-size: 2.5em;
   }
 
   .main h3 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
+
+
 }
 
 @media (max-width:380px) {
@@ -331,7 +334,7 @@ h4 {
   }
 
   .main h3 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .experience-card {
@@ -345,8 +348,8 @@ h4 {
   .cantact-me .card {
     margin: 0 0 2.5rem 0;
   }
-  
-  .divPic img{
+
+  .divPic img {
     height: 80px;
   }
 
