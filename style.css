@@ -72,7 +72,7 @@ h4 {
   color: #4e9eff;
   font-size: 3rem;
   font-weight: 500;
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .main h2 span {
@@ -80,7 +80,7 @@ h4 {
   display: inline-block;
   margin-left: 5px;
   color: #f5cece;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
@@ -90,8 +90,7 @@ h4 {
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-top: 10px;
-  margin-bottom: 30px
+  margin: 10px 0 30px 6px;
 }
 
 .main-btn {
@@ -313,7 +312,7 @@ h4 {
   }
 
   .main h3 {
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
 
 
