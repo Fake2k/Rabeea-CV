@@ -334,11 +334,16 @@ h4 {
   
   .main h2 span {
     font-size: 1rem;
-    margin: 0;
+    margin: 2px;
   }
   
   .main h3 {
-    font-size: 1rem;
+    font-size: 1.6rem;
+    margin: 14px 0 15px;
+  }
+  
+  .main .social-icons {
+    margin-top: -10px;
   }
 
   .experience-card {
